@@ -2,7 +2,7 @@ import mxnet as mx
 
 from mxnet.base import _LIB, check_call
 from mxnet.base import c_array, mx_uint, mx_float, c_str
-from mxnet.base import OptimizerHandle, OptimizerCreator
+#from mxnet.base import OptimizerHandle, OptimizerCreator
 from mxnet.ndarray import NDArray, clip
 
 @mx.optimizer.register
